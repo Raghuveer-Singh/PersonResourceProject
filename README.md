@@ -21,13 +21,13 @@ Steps to start the application,
 About the project,
 1) There are two person resources available on start as mentioned in the question(John Wick, Sarah Raven)
 2) Access to in-memory db, hit the url, 'http://localhost:8080/h2-console' and make sure the the value for JDBC URL is 'jdbc:h2:mem:testdb'
-3) Documentation for the api's available - http://localhost:8080/swagger-ui.html
-            GET /persons - to retrieve all users
-            POST /persons - to create a single person resource
-            DELETE /persons/{id} - to remove a specific person resource by their id
-            GET /persons/{id} - to retrieve a specific person based on id
-            PUT /persons/{id} - to update a person resource if exists or create new one if doesn't exist
-4) Use Postman app to test your apis
+3) Documentation for the api's available - http://localhost:8080/swagger-ui.html  
+            GET /persons - to retrieve all users  
+            POST /persons - to create a single person resource  
+            DELETE /persons/{id} - to remove a specific person resource by their id  
+            GET /persons/{id} - to retrieve a specific person based on id  
+            PUT /persons/{id} - to update a person resource if exists or create new one if doesn't exist  
+4) Use Postman app to test your apis  
 
 Cheers!! :)
 
